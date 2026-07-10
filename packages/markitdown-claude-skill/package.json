@@ -1,0 +1,35 @@
+{
+  "name": "markitdown-skill",
+  "version": "0.1.0",
+  "description": "Claude Code skill installer for MarkItDown — converts PDF, Word, Excel, PowerPoint, HTML, images, audio, and more to Markdown",
+  "license": "MIT",
+  "bin": {
+    "markitdown-skill": "./bin/install.mjs"
+  },
+  "keywords": [
+    "claude-code",
+    "claude",
+    "skill",
+    "mcp",
+    "markitdown",
+    "markdown",
+    "pdf",
+    "docx",
+    "pptx",
+    "xlsx",
+    "converter"
+  ],
+  "files": [
+    "bin/",
+    "README.md"
+  ],
+  "engines": {
+    "node": ">=16"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/sahebsoft/markitdown"
+  },
+  "author": "sahebsoft",
+  "type": "module"
+}
